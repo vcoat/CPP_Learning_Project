@@ -47,14 +47,14 @@ Les avions occupent tous les terminaux disponible. Dès qu'un terminal se libèr
 Aircraft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> Représente un avion (numéro, type, position, vitesse actuelle...)           
 AircraftType&nbsp;&nbsp;&nbsp;=> Représente un type d'avion (vitesses max et texture associée)       
 Airport&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; => Représente un aéroport ( défini par un type d'aéroport, une liste de terminaux...)         
-AirportType     &nbsp;&nbsp;    => Représente un type d'aeroport (liste de pistes, et positions de ses élements clés) 
+AirportType     &nbsp;&nbsp;    => Représente un type d'aeroport (liste de pistes, et positions de ses élements clés)\
 Point2D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> Représente un point en 2D (coordonnées x et y)\
 Point3D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> Représente un point en 3D (coordonnées x,y,z)\
 Runway&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; => Represénte une piste d'atterissage, avec deux Point3D\
 Terminal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           => Représente un terminal (position et éventuel avion en service)  
-Tower&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; => Représente une tour de contrôle (aeroport et liste les avions associés à un terminal)
-TowerSimulation  &nbsp;   => Représente la simulation complète (contient l'aéroport)
-Waypoint            => Représente un point pour guider les avions, hérite de Point3D
+Tower&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; => Représente une tour de contrôle (aeroport et liste les avions associés à un terminal)\
+TowerSimulation  &nbsp;   => Représente la simulation complète (contient l'aéroport)\
+Waypoint &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           => Représente un point pour guider les avions, hérite de Point3D
 
 2) Quelles classes et fonctions sont impliquées dans la génération du chemin d'un avion ? Quel conteneur de la librairie standard a été choisi pour représenter le chemin ? Expliquez les intérêts de ce choix.
 
